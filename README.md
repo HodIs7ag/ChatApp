@@ -1,5 +1,8 @@
 # ChatApp
-Java-based (OOP) project designed to facilitate communication by allowing users to send and receive messages to individuals or groups
+Java-based (OOP) project designed to facilitate communication by allowing users to send and receive messages to individuals or groups. The 
+project incorporates various OOP concepts such as modularity, hierarchy, composition, reuse, 
+encapsulation, subtyping, information hiding, abstraction, inheritance, polymorphism, and exception 
+handling.
 
 ## Getting started
 1. Clone repo:
