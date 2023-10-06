@@ -1,30 +1,27 @@
 # ChatApp
-Java-based (OOP) project designed to facilitate communication by allowing users to send and receive messages to individuals or groups. The 
-project incorporates various OOP concepts such as modularity, hierarchy, composition, reuse, 
-encapsulation, subtyping, information hiding, abstraction, inheritance, polymorphism, and exception 
-handling.
+Chat Messaging App is a Java-based object-oriented programming (OOP) project designed to 
+facilitate communication by allowing users to send and receive real-time messages. User-friendly GUI is 
+designed using JavaFx to enhance the experience. The project incorporates various OOP concepts such 
+as modularity, hierarchy, composition, reuse, encapsulation, subtyping, information hiding, abstraction, 
+inheritance, polymorphism, and exception handling.
+
 
 ## Getting started
 1. Clone repo:
 ```bash
 $ git clone https://github.com/HodIs7ag/ChatApp.git
 ```
-2. compile the coderun Main.java
-3. run Main.java
+2. Use Intellij, Eclipse or any IDLE supports Maven and JavaFx
+3. compile the project
+4. Run Server class to initialize the Server
+5. launch the app by running ChatAppGUI class two times or more
+6. Welcome window will pop-up
    
-## Features
-#### User Registration and Authentication:
-- Users can create accounts and register with the chat application.
-- Authentication mechanisms are implemented to ensure secure access to user accounts.
-#### One-on-One Messaging: 
-- Users can send direct messages to other users in real-time.
-- Message history is saved (not on DATABASE), allowing users to view conversation only one time when they open the inbox.
-#### Group Chat:
-- Users can create groups or join the group.
-- Group chats enable multiple users to exchange messages in a shared environment.
-#### Leave a Group:
-- Users can choose to leave a group they have previously joined.
-- When leaving a group, the user is removed from the group's member list and no longer receives group messages.
-#### Display Group Info:
-- Users can view detailed information about a group, including its name, members, and 
-other relevant details
+## User Interface
+#### Welcome window
+![Alt text](images/image.png)
+- Username: textField where user inserts his desired name. once inserted User object is created
+- roomName: Type room name, new room will be created if not already existed.
+-  Room Selection: the program supports Public and private chats
+- Start Chat: Button to send the inserted data to back-end for verification, then Shows Chat Window
+
