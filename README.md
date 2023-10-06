@@ -43,6 +43,6 @@ In the context of this chat application:
 
 When a user sends a message, it is transmitted through their user socket to the server. The server then distributes this message to all other users who are connected and have joined the same chat room. This is achieved by iterating over all active user sockets associated with that room and sending the message to each one.
 
-**For further detail regrading OOP download the ![project report ](OOP_report.pdf)
+**For further details regrading OOP download the [project report](OOP_report.pdf)**
 
 
